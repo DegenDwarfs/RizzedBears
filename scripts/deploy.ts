@@ -11,18 +11,18 @@ async function main() {
 
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  let NOES = await ethers.getContractFactory("NightmareOnEtherStreet");
-  NOES = await NOES.deploy();
-  await NOES.deployed();
+  let RB = await ethers.getContractFactory("RizzedBears");
+  RB = await RB.deploy();
+  await RB.deployed();
 
-  console.log("\n -- Nightmare On Ether Street --\n");
-  console.log("NOES address:", NOES.address, "\n");
+  console.log("\n -- Rizzed Bears --\n");
+  console.log("RB address:", RB.address, "\n");
 
-  saveFrontendFiles(NOES.address);
+  saveFrontendFiles(RB.address);
 }
 
 
-function saveFrontendFiles(noes_address: any) {
+function saveFrontendFiles(RB_address: any) {
   const fs = require("fs");
   const contractsDir = __dirname + "";
 
@@ -32,14 +32,14 @@ function saveFrontendFiles(noes_address: any) {
 
   fs.writeFileSync(
     contractsDir + "/abi/contract-addresses.json",
-    JSON.stringify({ NOES: noes_address}, undefined, 2)
+    JSON.stringify({ RB: RB_address}, undefined, 2)
   );
 
-  let NOESArtifact = artifacts.readArtifactSync("NightmareOnEtherStreet");
+  let RBArtifact = artifacts.readArtifactSync("RizzedBears");
 
   fs.writeFileSync(
-    contractsDir + "/abi/NOES.json",
-    JSON.stringify(NOESArtifact, null, 2)
+    contractsDir + "/abi/RB.json",
+    JSON.stringify(RBArtifact, null, 2)
   );
 
 }
