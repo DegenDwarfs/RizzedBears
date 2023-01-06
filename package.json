@@ -1,14 +1,14 @@
 {
-  "name": "nightmareonetherstreet",
+  "name": "rizzedbears",
   "version": "1.0.0",
-  "description": "Trick-Or-Treat NFT",
+  "description": "Etherscan Educational NFT project",
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stinkyfi/NightmareOnEtherStreet.git"
+    "url": "git+https://github.com/DegenDwarfs/RizzedBears.git"
   },
   "keywords": [
     "solidity",
@@ -17,9 +17,9 @@
   "author": "StinkyFi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stinkyfi/NightmareOnEtherStreet/issues"
+    "url": "https://github.com/DegenDwarfs/RizzedBears/issues"
   },
-  "homepage": "https://github.com/stinkyfi/NightmareOnEtherStreet#readme",
+  "homepage": "https://github.com/DegenDwarfs/RizzedBears#readme",
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "@openzeppelin/contracts": "^4.7.3",

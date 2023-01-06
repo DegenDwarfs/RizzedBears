@@ -1,10 +1,11 @@
-# <img src="https://github.com/stinkyfi/NightmareOnEtherStreet/blob/main/images/NOES-Logo.gif" width="35">Nightmare On Ether St. <img src="https://github.com/stinkyfi/NightmareOnEtherStreet/blob/main/images/NOES-Logo.gif" width="35">
+# Rizzed Bears
 
-[![Hardhat Test](https://github.com/stinkyfi/NightmareOnEtherStreet/actions/workflows/NOES.yml/badge.svg)](https://github.com/stinkyfi/NightmareOnEtherStreet/actions/workflows/NOES.yml) ![GitHub followers](https://img.shields.io/github/followers/stinkyfi?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/nomamesgwei?style=social)
+[![Automated Tests](https://github.com/DegenDwarfs/RizzedBears/actions/workflows/NOES.yml/badge.svg?branch=main)](https://github.com/DegenDwarfs/RizzedBears/actions/workflows/NOES.yml)
+![GitHub followers](https://img.shields.io/github/followers/degendwarfs?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/degendwarfs?style=social)
 
-Nightmare On Ether St. is a trick-or-treat themed minting experience. There is a max supply of 6669 Total Tricks and Treats.
-You can mint one for `0.006` Ether on Halloween Weekened
+Rizzed Bears is a free mint designed for the Etherscan 201 education course by the Degen Dwarfs.
+Learn by minting directly from etherscan, and trade your free NFT on any marketplace.
 
 # Developer Notes 
 
@@ -13,8 +14,8 @@ You can mint one for `0.006` Ether on Halloween Weekened
 The first steps are to clone the repository and install its dependencies:
 
 ```sh
-https://github.com/stinkyfi/NightmareOnEtherStreet.git
-cd NightmareOnEtherStreet
+https://github.com/DegenDwarfs/RizzedBears.git
+cd RizzedBears
 npm install
 ```
 
