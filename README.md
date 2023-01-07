@@ -1,5 +1,6 @@
 # Rizzed Bears
 
+[![Automated Tests](https://github.com/DegenDwarfs/RizzedBears/actions/workflows/NOES.yml/badge.svg?branch=main)](https://github.com/DegenDwarfs/RizzedBears/actions/workflows/NOES.yml)
 ![GitHub followers](https://img.shields.io/github/followers/degendwarfs?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/degendwarfs?style=social)
 
