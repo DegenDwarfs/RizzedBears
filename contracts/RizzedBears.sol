@@ -52,7 +52,7 @@ contract RizzedBears is ERC721A, Ownable   {
     }
 
     /// @dev Toggles the mint status from on/off
-    function updateHaunting() external onlyOwner {  
+    function updateMintStatus() external onlyOwner {  
         mintOpen = !mintOpen;
         emit StatusChange(mintOpen);
     }
