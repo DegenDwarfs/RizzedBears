@@ -33,7 +33,7 @@ contract RizzedBears is ERC721A, Ownable   {
 
     constructor() ERC721A("Rizzed Bears", "RB") {
         mintOpen = true;
-        baseURI = "";
+        baseURI = "ipfs://bafybeidxzi5h7zw7pcm3apcjye26vs6prfgeyllc4qzuqy66rwra367z6i/";
     }
 
     /// @dev Public Mint RB NFTs
