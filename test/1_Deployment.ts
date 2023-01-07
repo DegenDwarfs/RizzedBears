@@ -14,12 +14,14 @@ describe("Deploy & Initiliaze", function () {
 
     [owner, addr1, addr2, ...addrs] = await ethers.getSigners();
 
-    //Deploy KerberusVault.sol
+    //Deploy RizzedBears.sol
     RB = await RB.deploy();
     await RB.deployed();
   });
 
   it("Validate Deployment", async function () {
     expect(await RB.owner()).to.be.equal(owner.address);
+    expect(await RB.mintOpen()).to.be.equal(true);
+    expect(await RB.mintLimit()).to.be.equal(5);
   });
 });
