@@ -11,7 +11,7 @@ import "erc721a/contracts/ERC721A.sol";
 contract RizzedBears is ERC721A, Ownable   {
 
     /// @dev Max Supply
-    uint256 immutable public maxSupply = 6969;
+    uint256 immutable public maxSupply = 7000;
     /// @dev Minting Open/Close Flag
     bool public mintOpen;
     /// @dev Max Mint per txs
